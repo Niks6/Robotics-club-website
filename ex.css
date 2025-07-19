@@ -1,0 +1,206 @@
+.msz{
+    width: 100vw;
+    color: white;
+    /* border: 2px solid white; */
+    padding: 2rem;
+    background-image: url("/images/AdobeStock_221579575-ezgif.com-speed.gif") ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.direct{
+    box-sizing: border-box;
+    /* border: 2px solid white; */
+    margin: 5px;
+    padding: 2rem;
+    
+    position: relative ;
+    height: auto;
+    display: flex;
+}
+
+.left-direct{
+    /* border: 2px solid white; */
+    margin: 5px;
+    padding: 5px;
+    height: 100%;
+    padding: 5px;
+    font-size: 2em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-panel{
+    /* border: 2px solid white; */
+    margin: 2px;
+}
+
+.direct-image {
+    height: 400px;
+    width: 325px;
+    /* border: 2px solid white; */
+}
+
+.direct-image:first-child img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+    /* border: 2px solid white; */
+}
+
+.direct-name{
+    margin-top: 1em;
+    /* border: 2px solid white; */
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+}
+
+
+.right-direct{
+    /* border: 2px solid white; */
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    animation: float 1.7s linear infinite;
+    /* font-size: 1.5rem; */
+}
+
+.title{
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.msz-content{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    text-align: justify;
+}
+
+.dean{
+    box-sizing: border-box;
+    /* border: 2px solid white; */
+    margin: 5px;
+    padding: 2rem;
+    position: relative ;
+    height: 700px;
+    display: flex;
+}
+
+.left-dean{
+        /* border: 2px solid white; */
+        margin: 5px;
+        padding: 5px;
+        height: 100%;
+        padding: 5px;
+        font-size: 2em;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.dean-image{
+    height: 400px;
+    width: 325px;
+    /* border: 2px solid white; */
+}
+
+.dean-image:first-child img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+    /* border: 2px solid white; */
+}
+
+.dean-name{
+    margin-top: 1em;
+    /* border: 2px solid white; */
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+}
+
+.right-dean{
+    /* border: 2px solid white; */
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    animation: float 1.7s linear infinite;
+    /* font-size: 1.5rem; */
+}
+
+.coordinator{
+    box-sizing: border-box;
+    /* border: 2px solid white; */
+    margin: 5px;
+    padding: 2rem;
+    
+    position: relative ;
+    height: 700px;
+    display: flex;
+}
+
+.left-coordinator{
+    /* border: 2px solid white; */
+    margin: 5px;
+    padding: 5px;
+    height: 100%;
+    padding: 5px;
+    font-size: 2em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-coordinator{
+    /* border: 2px solid white; */
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    animation: float 1.7s linear infinite;
+    /* font-size: 1.5rem; */
+}
+
+.image-panel{
+    /* border: 2px solid white; */
+    margin: 2px;
+}
+
+.coordinator-image {
+    height: 400px;
+    width: 325px;
+    /* border: 2px solid white; */
+}
+
+.coordinator-image:first-child img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+    /* border: 2px solid white; */
+}
+
+.coordinator-name{
+    margin-top: 1em;
+    /* border: 2px solid white; */
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+}
